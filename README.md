@@ -1,6 +1,7 @@
 mercury-jsx-folder
 ==================
 
+
 Convert a folder of .jsx files into standard .js files - uses [mercury-jsx](https://github.com/Raynos/mercury-jsx)
 
 [![Travis](http://img.shields.io/travis/binocarlos/mercury-jsx-folder.svg?style=flat)](https://travis-ci.org/binocarlos/mercury-jsx-folder)
