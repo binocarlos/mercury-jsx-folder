@@ -1,0 +1,33 @@
+{
+  "name": "mercury-jsx-folder",
+  "version": "1.0.0",
+  "description": "process a folder of .jsx files into standard .js using mercury-jsx",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/mercury-jsx-folder.git"
+  },
+  "keywords": [
+    "mercury",
+    "jsx",
+    "folder",
+    "convert"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/mercury-jsx-folder/issues"
+  },
+  "homepage": "https://github.com/binocarlos/mercury-jsx-folder",
+  "dependencies": {
+    "mercury-jsx": "^0.1.3",
+    "process-folder": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^3.0.1",
+    "wrench": "^1.5.8"
+  }
+}
