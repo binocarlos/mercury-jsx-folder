@@ -1,32 +1,24 @@
-process-folder
-==============
+mercury-jsx-folder
+==================
 
-Loop recursively over files in a folder, pipe them to stdin of a command and write the output to a target folder.
+Convert a folder of .jsx files into standard .js files - uses [mercury-jsx](https://github.com/Raynos/mercury-jsx)
 
-[![Travis](http://img.shields.io/travis/binocarlos/process-folder.svg?style=flat)](https://travis-ci.org/binocarlos/process-folder)
+[![Travis](http://img.shields.io/travis/binocarlos/mercury-jsx-folder.svg?style=flat)](https://travis-ci.org/binocarlos/mercury-jsx-folder)
 
 ## install
 
 ```
-$ npm install process-folder
+$ npm install mercury-jsx-folder
 ```
 
 ## usage
 
 ```js
-var processFolder = require('process-folder')
+var processFolder = require('mercury-jsx-folder')
 
 var processor = processFolder({
 	source:__dirname + '/fixtures/src',
-	dest:__dirname + '/fixtures/build',
-	command:'mercury-jsx',
-	args:[],
-	filter:function(file){
-		return file.match(/\.jsx/)
-	},
-	rename:function(file){
-		return file.replace(/\.jsx/, '.js')
-	}
+	dest:__dirname + '/fixtures/build'
 })
 
 processor.on('file', function(source, target){
