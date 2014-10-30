@@ -35,6 +35,13 @@ The above example will load all `.jsx` files from `__dirname + '/fixtures/src'` 
 
 The results of each file will be written to `__dirname + '/fixtures/build'` with the .jsx suffix replaced with .js
 
+## cli
+
+To use as a command line application:
+
+```
+$ mercury-jsx-folder -i fixtures/src -o fixtures/build
+```
 
 ## license
 
