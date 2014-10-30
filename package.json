@@ -1,6 +1,6 @@
 {
   "name": "mercury-jsx-folder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "process a folder of .jsx files into standard .js using mercury-jsx",
   "main": "index.js",
   "scripts": {
